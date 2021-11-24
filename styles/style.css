@@ -1,0 +1,52 @@
+.body{
+    margin: 0;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px;
+}
+.header{
+    background-color: #181818;
+}
+.nav-menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu-btn{
+    width: 23%;
+}
+.nav-login,
+.nav-menu-btn{
+    text-decoration: none;
+    line-height: 27px;
+    text-align:center;
+    color: #ffffff;
+    font-family: 'Graphik';
+    font-weight: 500;
+    display: block;
+}
+.nav-login{
+    width: 140px;
+    height: 27px;
+    border: 1px solid #ffffff;
+}
+.nav-menus{
+    display: none;
+}
+@media (max-width:680px){
+    .nav-btns{
+        display: flex;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-menus{
+        display: block;
+        margin-left: 25px;
+    }
+}
